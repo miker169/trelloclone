@@ -1,26 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { AppContainer } from "./styles";
+import { AddNewItem } from "./AddNewItem";
+import { Column } from "./Column";
+import { useAppState } from "./state/AppStateContext";
+import { addList } from "./state/actions";
+import { CustomDragLayer } from "./CustomDragLayer";
 
-function App() {
+export const App = () => {
+  const { lists, dispatch } = useAppState();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppContainer>
+      <CustomDragLayer />
+      {lists.map((list) => (
+        <Column text={list.text} id={list.id} key={list.id} />
+      ))}
+      <AddNewItem
+        onAdd={(text) => dispatch(addList(text))}
+        toggleButtonText="Add another list"
+      />
+    </AppContainer>
   );
-}
-
-export default App;
+};

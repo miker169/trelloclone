@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1dcd10ec-e9f8-48b6-b188-19fc38541335" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/AddNewItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Column.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CustomDragLayer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DragItem.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NewItemForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/state/AppStateContext.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/state/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/state/appStateReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/arrayUtils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/isHidden.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/useFocus.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/useItemDrag.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/withInitialState.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="docker-desktop" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2AimGDbh083w0EtudhAjjafIyC0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/mike/dev/trello-clone",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "prettierjs.PrettierConfiguration.Package": "/Users/mike/.nvm/versions/node/v16.14.0/lib/node_modules/prettier",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "/Users/mike/dev/trello-clone/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1dcd10ec-e9f8-48b6-b188-19fc38541335" name="Changes" comment="" />
+      <created>1655500681838</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655500681838</updated>
+      <workItem from="1655500683014" duration="1750000" />
+      <workItem from="1655845261917" duration="1364000" />
+      <workItem from="1657869743420" duration="1706000" />
+      <workItem from="1657952263611" duration="1545000" />
+      <workItem from="1658781433206" duration="25360000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
